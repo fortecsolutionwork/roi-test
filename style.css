@@ -1,0 +1,458 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", Sans-serif;
+}
+
+
+.rio89 {
+    display: flex;
+    max-width: 1170px;
+    margin: auto;
+    padding: 15px 15px;
+    margin-top: 80px;
+}
+.Calculator01 {
+    flex: 0 0 65%;
+}
+.Calculator02 {
+    flex: 0 0 35%;
+}
+.Calculator01 h1 {
+    font-size: 80px;
+    font-weight: 500;
+    color: #4158d7;
+}
+.Calculator01 p {
+    color: #4158d7;
+    font-size: 20px;
+}
+.Calculator02 {
+    transition: border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin: 10% 10% 1% 0%;
+    padding: 50px 40px 50px 40px;
+    background: #def8fc;
+    border-radius: 30px;
+    justify-content: center;
+    text-align: center;
+}
+.Calculator02 p {
+    color: #4158d7;
+    margin-bottom: 10px;
+}
+p.cal_price {
+    font-size: 50px;
+}
+p.cal_price span {
+    font-weight: 700;
+}
+.Calculator02 button {
+    font-size: 20px;
+    font-weight: 300;
+    border-radius: 10px 10px 10px 10px;
+    padding: 3px 15px 3px 15px;
+    background: #4158d7;
+    color: #fff;
+    border: none;
+    margin-top: 10px;
+}
+
+.Calculator01 h6 {
+    font-size: 25px;
+    color: #4158d7;
+    margin-top: 60px;
+    font-weight: 500;
+}
+.rio_button {
+    display: flex;
+    margin-top: 10px;
+}
+.btn1 button {
+    font-size: 14px;
+    font-weight: 300;
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px 15px 5px 15px;
+    background: #4158d7;
+    color: #fff;
+    border: none;
+    margin-top: 10px;
+}
+.btn2 button {
+    font-size: 14px;
+    font-weight: 300;
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px 15px 5px 15px;
+    background: #ffffff;
+    color: #4158d7;
+    margin-top: 10px;
+    border: 1px solid #4158d7;
+    margin-left: 25px;
+    font-weight: 600;
+}
+.slidecontainer.range {
+    margin-top: 35px;
+}
+.row.pri_09 {
+    max-width: 1170px;
+    margin: auto;
+    padding: 15px 15px;
+    margin-bottom:20px;
+}
+.pricing h1 {
+    font-size: 80px;
+    font-weight: 500;
+    color: #4158d7;
+    margin-bottom: 15px;
+}
+
+.pricing_box1 {
+    margin: 0% 3% 0% 0%;
+    padding: 1% 1% 1% 1%;
+    background: #fff8de;
+    border-radius: 25px;
+}
+.pricing_box2 {
+    margin: 0% 3% 0% 0%;
+    padding: 1% 1% 1% 1%;
+    background: #fdede2;
+    border-radius: 25px;
+}
+.pricing_box3 {
+    margin: 0% 3% 0% 0%;
+    padding: 5% 1% 1% 1%;
+    background: #d6f7ef;
+    border-radius: 25px;
+}
+.pricing_box {
+    display: flex;
+}
+.pricing_box1 {
+    flex: 0 0 31.35%;
+    text-align: center;
+}
+.pricing_box2 {
+    flex: 0 0 31.35%;
+    text-align: center;
+}
+.pricing_box3 {
+    flex: 0 0 31.35%;
+    text-align: center;
+}
+.pricing_box h6 {
+    font-size: 35px;
+    font-weight: 500;
+}
+.pricing_box h2 {
+    font-size: 50px;
+    color: #4158d7;
+    font-weight: 600;
+}
+.pricing_box p {
+    font-size: 20px;
+    color: #4158d7;
+}
+
+.pricing_box h5 {
+    font-size: 24px;
+    color: #4158d7;
+    font-weight: 600;
+}
+.pricing_box h4 {
+    font-size: 24px;
+    color: #4158d7;
+    margin-top: 15px;
+    font-weight: 600;
+}
+.phone90 img {
+    display: flex;
+    margin: auto;
+}
+p.permonth67 {
+    margin-bottom: 25px;
+}
+
+.pricing_box1 button {
+    font-size: 20px;
+    font-weight: 300;
+    border-radius: 15px;
+    background: #feeea9;
+    border: none;
+    padding: 10px 23px 10px 23px;
+    margin-top: 25px;
+    color: #4158d7;
+    margin-bottom: 15px;
+}
+.pricing_box2 button {
+    font-size: 20px;
+    font-weight: 300;
+    border-radius: 15px;
+    background: #fac9a9;
+    border: none;
+    padding: 10px 23px 10px 23px;
+    margin-top: 25px;
+    color: #4158d7;
+}
+.pricing_box3 button {
+    font-size: 20px;
+    font-weight: 300;
+    border-radius: 15px;
+    background: #94e9d5;
+    border: none;
+    padding: 10px 23px 10px 23px;
+    margin-top: 25px;
+    color: #4158d7;
+}
+.phone90.img8 img {
+    width: 191px;
+}
+.phone90.img9 img {
+    width: 185px;
+}
+h5.bespoke787 {
+    margin: 50px 10px 50px 10px;
+}
+.phone90.img9 img {
+    margin-bottom: 20px;
+}
+.phone90 img {
+    margin-bottom: 10px;
+}
+
+.pricing span {
+    font-size: 40px;
+}
+.save12 {
+    display: flex;
+    justify-content: right;
+}
+
+.save12 p {
+    background-color: #33BFA2;
+    border-radius: 20px;
+    padding: 5px 15px 5px 15px;
+    color: #fff !important;
+    font-size: 18px;
+}
+h5.bespoke787 {
+    font-size: 21px;
+    font-weight: 600;
+}
+#slider-range {
+    background-color: #D4D4D4;
+    position: relative;
+    max-width: 597px;
+    margin: 0 auto;
+    margin-left: 40px;
+}
+#slider-range {
+    background-color: #d6f7ef;
+    height: 10px;
+    border-radius: 15px;
+    border: none;
+}
+
+.ui-slider-horizontal .ui-slider-range {
+    background-color: #4158d7;
+    height: 12px;
+    left: 0 !important;
+    border-radius: 15px;
+}
+
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-active, .ui-widget-content .ui-state-active, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus, .ui-button:hover, .ui-button:focus { 
+  background: #fff!important;
+  border: 1px solid #cccccc!important;
+}
+
+.ui-slider .ui-slider-handle {
+    box-shadow: 0 0 5px 0 rgb(0 0 0 / 20%);
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    background: black;
+    display: block;
+    position: absolute;
+    top: -9px;
+    left: 0;
+    margin-left: -85px;
+    z-index: 222;
+}
+span.ui-slider-handle.ui-corner-all.ui-state-default {
+    background: #4158d7;
+}
+span.ui-slider-handle.ui-corner-all.ui-state-default:hover {
+    background: #4158d7;
+}
+#slider-range .ui-slider-handle:nth-child(2){
+    display: none;
+}
+#amount {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.6875em;
+    background: #4158d7;
+    text-align: center;
+    width: 15%;
+    color: #fff;
+    border-radius: 15px;
+    margin: 25px 0px 5px 68px;
+    outline: none !important;
+}
+.btn1 button:hover {
+    background: #3a3a3a;
+    color: #fff;
+}
+.btn2 button:hover {
+    background: #3a3a3a;
+    color: #fff;
+    border:none;
+}
+.Calculator02 button:hover {
+    background: #3a3a3a;
+    color: #fff;
+    border:none;
+}
+#amount::placeholder {
+    color: #fff;
+}
+
+/*  */
+#server,#hardware{
+    display: none;
+}
+.server-hardware label span {
+    font-size: 14px;
+    font-weight: 300;
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px 15px 5px 15px;
+    border: 1px solid #4158d7 !important;
+    color: #4158d7;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.server-hardware input[type="radio"]:checked + span{
+    background: #4158d7;
+    color: #fff;
+}
+@media only screen and (max-device-width: 1024px){
+
+    .Calculator01 h1 {
+        font-size: 55px;
+        margin-bottom: 20px;
+    }
+    #slider-range {
+        max-width: 380px;
+      
+    }
+    p.cal_price {
+        font-size: 30px;
+    }
+    .pricing h1 {
+        font-size: 60px;
+    }
+    .pricing_box h2 {
+        font-size: 35px;
+    }
+    .save12 p {
+        font-size: 13px;
+    }
+}   
+
+@media only screen and (max-device-width: 767px){
+
+    .rio89 {
+        display:block;
+        width: 90%;
+        margin: auto;
+        margin-top: 80px;
+    }
+    .Calculator01 h1 {
+        font-size: 45px;
+        line-height: 60px;
+    }
+    .Calculator01 p {
+        font-size: 15px;
+        margin-top: 15px;
+    }    
+   .row.pri_09 {
+        width: 90%;
+        margin: auto;
+        margin-bottom:20px;
+    }
+    .Calculator01 {
+        flex: 0 0 100%;
+    }
+    .Calculator02 {
+        flex: 0 0 100%; 
+    }
+    .pricing_box {
+    display: block;
+}
+.pricing_box1 {
+    flex: 0 0 100%;
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 3% 3% 1% 1%;
+}
+.pricing_box2 {
+    flex: 0 0 100%;
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 3% 3% 1% 1%;
+}
+.pricing_box3 {
+    flex: 0 0 100%;
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 3% 3% 1% 1%;
+}
+.Calculator02 {
+    margin: 10% 0% 1% 0%;
+}
+
+.btn1 button {
+    font-size: 12px;
+}
+.btn2 button {
+    font-size: 12px;
+    margin-top: 8px;
+}
+p.cal_price {
+    font-size: 35px;
+}
+.Calculator02 button {
+    font-size: 15px;
+}
+.pricing h1 {
+    font-size: 45px;
+    margin-top: 60px;
+}
+.pricing_box h2 {
+    font-size: 35px;
+}
+.pricing_box h5 {
+    font-size: 20px;
+}
+.pricing_box p {
+    font-size: 15px;
+}
+.pricing_box h6 {
+    font-size: 20px;
+}
+.row.pri_09 button {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.pricing span {
+    font-size: 32px;
+}
+.server-hardware label span {
+    font-size: 11px;
+    padding: 6px 5px 5px 6px;
+ 
+}
+#amount {
+    width: 40%;
+}
+}

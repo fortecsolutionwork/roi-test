@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+    <title>ROI Calculator</title>
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="rio89">
+                    <div class="Calculator01">
+                        <h1>ROI Calculator</h1>
+                        <p>Adjust the slider below to see your annual savings in the blue box</p>
+                        <h6>01. Monthly active vessels</h6>
+                        <div id="range-slider">
+                            <p>
+                                <input type="text" id="amount" readonly style="border:0;" placeholder="5 vessels">
+                            </p>
+                            <div id="slider-range"></div>
+                        </div>
+                        <h6>02. Onboard options</h6>
+                        <div class="rio_button">
+                            <!-- <div class="btn1">
+                                <button>Provided server</button>
+                            </div>
+                            <div class="btn2">
+                                <button>Use existing hardware</button>
+                            </div> -->
+                            <form class="server-hardware">
+                                
+                                <label for="server"><input type="radio" id="server" checked name="fav_language" value="server"> <span>Provided server</span></label>
+                               
+                                <label for="hardware"> <input type="radio" id="hardware" name="fav_language" value="hardware"> <span>Use existing hardware</span> </label>
+                            </form> 
+                        </div>
+                    </div>
+                    <div class="Calculator02">
+                        <p>Your annual savings</p>
+                        <p class="cal_price">15% <span>37.500€</span></p>
+                        <p>Insurance saving</p>
+                        <p class="cal_price">10% <span> 11.000€</span></p>
+                        <p>Insurance saving</p>
+                        <button>Find out more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row pri_09">
+                <div class="pricing">
+                    <h1>Pricing <span><sub>per vessel</sub></span> </h1>
+                </div>
+                <div class="pricing_box">
+                    <div class="pricing_box1">
+                        <div class="save12">
+                            <p>SAVE 5%</p>
+                        </div>
+                        <h6>Basic</h6>
+                        <h2>127€</h2>
+                        <p>Per vessel per day</p>
+                        <h5>+ provided service 67€</h5>
+                        <p>Per vessel per day</p>
+                        <h4>3.795€</h4>
+                        <p class="permonth67">Per month for 5 vessels</p>
+                        <div class="phone90">
+                            <img src="http://firstwave.protocolsolution.com/wp-content/uploads/2022/01/Group-1.svg"
+                                alt="">
+                            <img src="http://firstwave.protocolsolution.com/wp-content/uploads/2022/01/Group-244.svg"
+                                alt="">
+                        </div>
+                        <button>Contact Us</button>
+                    </div>
+                    <div class="pricing_box2">
+                        <div class="save12">
+                            <p>SAVE 5%</p>
+                        </div>
+                        <h6>Pro</h6>
+                        <h2>317€</h2>
+                        <p>Per vessel per day</p>
+                        <h5>+ provided service 67€</h5>
+                        <p>Per vessel per day</p>
+                        <h4>9.495€</h4>
+                        <p class="permonth67">Per month for 5 vessels</p>
+                        <div class="phone90 img8">
+                            <img src="http://firstwave.protocolsolution.com/wp-content/uploads/2022/01/Group-305.svg"
+                                alt="">
+                            <img src="http://firstwave.protocolsolution.com/wp-content/uploads/2022/01/Group-511.svg"
+                                alt="">
+                        </div>
+                        <button>Contact Us</button>
+                    </div>
+                    <div class="pricing_box3">
+                        <h6>Enterprise</h6>
+
+                        <h5 class="bespoke787">Bespoke offset<br>
+                            pricing</h5>
+
+                        <div class="phone90 img9">
+                            <img src="http://firstwave.protocolsolution.com/wp-content/uploads/2022/01/Group-489.svg"
+                                alt="">
+                            <img src="http://firstwave.protocolsolution.com/wp-content/uploads/2022/01/Group-490.svg"
+                                alt="">
+                            <img src="http://firstwave.protocolsolution.com/wp-content/uploads/2022/01/Group-488.svg"
+                                alt="">
+                        </div>
+
+                        <button>Contact Us</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js">
+    </script>
+
+    <script>
+        // Range slider - gravity forms
+        $(function () {
+            $("#slider-range").slider({
+                range: true,
+                min: 5,
+                max: 10000,
+                step: 100,
+                slide: function (event, ui) {
+                    $("#amount").val(ui.values[1] + " vessels");
+                }
+            });
+        });
+
+    </script>
+</body>
+
+</html>
